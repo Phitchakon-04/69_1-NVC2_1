@@ -1,6 +1,6 @@
-# ศภสิน กินเจd
+วรรณกานต์ รวมกลาง
 
-student_name = "ศุภสิน รื่นนุสาร"
+student_name = "วรรณกานต์ รวมกลาง"
 print("=== โปรแกรมโดย:", student_name, "===")
 product_list = []
 i = 1
