@@ -8,22 +8,22 @@
 # CallName("บิ๊ก")
 
 
-# def Number(num) :
-#     print(num + 5)
-#     print(num - 5)
-#     print(num * 5)
-#     print(num / 5)
-#     print("......................")
+# def CallName(name):
+#     print("สวัสดีวันอังคารนะท่าน " + name)
+#     print("ขอให้เป็นวันที่ดีนะ" + name)
+#     print("ดีใจที่ได้ท่าน" + name + "นะ")
     
-# Number(10)
-# Number(5)
-# Number(3)
-# Number(15)
+# CallName("บิ๊ก")
+# CallName("บ๊อบ")
+# CallName("บ๊อก")
+# CallName("แบ๊ค")
 
 
-def CallName():
-    print("สวัสดีวันอังคารนะท่านผู้เจริญ")
-    print("ขอให้เป็นวันที่ดีนะ")
+def Number(x, y, z):
+    print(x+y+z)
+    print(x-y+z)
+    print(x*y-z)
+    print(x/y+z)
+    print("--------------")
     
-    
-CallName()
+Number(3,4,5)
