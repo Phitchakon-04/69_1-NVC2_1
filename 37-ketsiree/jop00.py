@@ -26,4 +26,4 @@ if len(product_list) > 0:
     for index, item in enumerate(product_list, start=1):
         print(f"ลำดับที่ {index} | สินค้า: {item['name']} | ราคา: {item['price']} บาท | VAT: {item['vat']:.2f} บาท | ราคารวมสุทธิ: {item['total']:.2f} บาท")
 else:
-    print("ยังไม่มีการป้อนข้อมูลสินค้า") 
+    print("ยังไม่มีการป้อนข้อมูลสินค้า")                                         
