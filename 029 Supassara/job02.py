@@ -1,7 +1,7 @@
-
 # โปรแกรมคำนวณภาษีมูลค่าเพิ่ม VAT
 
 vat_rate = float(input("กรุณาป้อนอัตราภาษี VAT (%): "))
+
 
 def Products(name, price, vat_rate):
     vat_amount = price * (vat_rate / 100)
@@ -11,6 +11,7 @@ def Products(name, price, vat_rate):
     print("ราคาสินค้า: {:,.2f} บาท".format(price))
     print("ภาษี VAT ({}%): {:,.2f} บาท".format(vat_rate, vat_amount))
     print("ราคาสุทธิ: {:,.2f} บาท\n".format(total_price))
+
 
 vat_input = float(input("กรุณาป้อนอัตราภาษี VAT (%): "))
 print("=" * 40)
